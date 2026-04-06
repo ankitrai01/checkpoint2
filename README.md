@@ -42,3 +42,11 @@ src/
 npm install
 npm run dev
 ```
+
+🌐 API Used
+https://dummyjson.com/quotes
+
+📌 Author
+Ankit Kumar Rai 😎
+
+
