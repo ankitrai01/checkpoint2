@@ -1,21 +1,44 @@
-<<<<<<< HEAD
-# React + Vite
+# 📌 React Quote Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that displays random quotes using an API. Users can like quotes and view them later on a separate page.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 🔄 Fetch random quotes from API
+- ❤️ Like / Unlike quotes
+- 💾 Store liked quotes using localStorage
+- 📄 Separate page to view liked quotes
+- 🔀 Routing using React Router
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# checkpoint2
-A React app to view random quotes, like them, and store liked quotes using localStorage with routing support.
->>>>>>> cf157a3dc9b274926a7124efe39faec21ad3130b
+- React (Vite)
+- JavaScript
+- React Router DOM
+- CSS
+
+---
+
+## 📂 Project Structure
+
+src/
+├── components/
+│ └── Quotecard.jsx
+├── pages/
+│ ├── Home.jsx
+│ └── Liked.jsx
+├── App.jsx
+└── main.jsx
+
+---
+
+## ▶️ Run Locally
+
+```bash
+npm install
+npm run dev
+```
