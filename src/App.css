@@ -1,0 +1,69 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  font-size: 18px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Container */
+div {
+  padding: 20px;
+}
+
+/* Quote Card */
+.quote-card {
+  background: white;
+  color: black;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Quote text */
+.quote-card h3 {
+  font-style: italic;
+}
+
+/* Button */
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #ff4b2b;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff416c;
+}
+
+/* Unlike button */
+button:active {
+  transform: scale(0.95);
+}
